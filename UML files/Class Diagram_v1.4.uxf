@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>498</x>
+      <y>222</y>
+      <w>78</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Teacher
+--
+- office_hours : string[]
+- class_assigned : string[]
+- content_list : list[]
+--
++ track_Attendance()
++ get_Officehours() : string[]
++ get_ClassAssigned() : string[]
++ create_Assesment()
++ update_Grades()
++ return_Grades() : string
++ request_Content()
++ create_Content()
++ update_Content()
++ access_Lab()
+
+bg=#a8d2d4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>120</y>
+      <w>78</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>User
+--
+# id : int {by system} 
+# username : string
+# password : string
+# gender: string
+# join_Date : string
+--
++ set_Username(username : string)
++ set_Password(password : string)
++ set_JoinDate(join_date : string)
++ get_Username() : string
++ get_JoinDate() : string
+bg=#f0b1ff</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>753</x>
+      <y>135</y>
+      <w>78</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Guest
+--
+- guest_ID : int {by system}
+--
++ take_AR_trips()
+bg=#809aff</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>714</x>
+      <y>222</y>
+      <w>72</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Content Creator
+--
+- content_type : string
+- subscribers : int
+- schedule : string[]
+- reviews : string[]
+--
++ get_Contents() : string[]
++ get_Subscribers() : int
++ get_Schedule() : string[]
++ get_Reviews() : string[]
++ create_Content()
++ send_Content()
+bg=#ffd15e</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>537</x>
+      <y>354</y>
+      <w>78</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>System
+--
+- system name : string
+- system version : float
+- erorr logs : string
+--
++ verify_Credentials()
++ send_Notification()
++ give_AIFeedback()
++ access_ARtrips()
++ holographic_Interaction()
++ gesture_command()
+bg=#d23a5b</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>606</x>
+      <y>222</y>
+      <w>78</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Admin
+--
+- role : string
+--
++ generate_Report()
++ manage_User()
++ assign_User()
++ update_Features()
++ troubleshoot_System()
++ manage_GuestAccount()
+bg=#4b969a</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>399</x>
+      <y>354</y>
+      <w>72</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Virtual Lab
+--
+- lab_name : string
+- lab_description : string
+- trip_info : string
+--
++ initialize_Lab()
++ load_Experiment()
++ save_Progress()
++ provide_Guidance()
++ generate_Report()
++ visualize_Data()
++ evaluate_Lab_Performance()
++ start_ARTrips()
+bg=#a641e7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>399</x>
+      <y>222</y>
+      <w>72</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+- assignments: string[]
+- class_schedule: string[]
+- grades : string[]
+--
++ get_StudentId() : int
++ get_Assignments() : string
++ complete_Assignments()
++ access_CourseMaterials()
++ get_classSchedule() : string[] 
++ track_Progress()
++ access_ResourceLibrary()
++ join_VirtualLabs()
++ join_ARTrip()
++ view_Grades() : string[]
+bg=#476fde</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>456</y>
+      <w>78</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Assesments
+--
+- assesment_type : string
+- total marks : float[]
+- marks_obtained : float[]
+- schedule : string[]
+--
++ get_Marks() : float[]
++ get_Schedule() : string[]
++ load_Question_Bank()
++ submit_Answers()
++ validate_Answers()
++ calculate_Scores()
++ store_Results()
++ analyze_Performance()
++ notify_Results()
+bg=#5c5f78</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>522</x>
+      <y>456</y>
+      <w>78</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>Courses
+--
+- course_content : string
+- schedule : string[]
+--
++ get_Contents() : string[]
++ get_Schedule() : string[]
+bg=#32864b
+fg=BLACK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>201</y>
+      <w>324</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;1060.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>204</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>534</x>
+      <y>204</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>747</x>
+      <y>204</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>186</y>
+      <w>9</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+bg=BLACK
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>144</y>
+      <w>132</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>420.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>642</x>
+      <y>204</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>369</x>
+      <y>276</y>
+      <w>36</w>
+      <h>138</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+  Join Virtual
+  labs &gt;
+bg=BLACK
+fg=BLUE</panel_attributes>
+    <additional_attributes>100.0;430.0;10.0;430.0;10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>414</y>
+      <w>75</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+&lt; allow Access</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>252</y>
+      <w>75</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+ take assesment &gt;
+bg=BLACK
+fg=BLUE</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;10.0;10.0;850.0;220.0;850.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>447</x>
+      <y>297</y>
+      <w>75</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= *..1
+&lt; can assign
+bg=BLACK
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;50.0;210.0;50.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>243</y>
+      <w>234</w>
+      <h>327</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1..n
+
+takes &gt;
+fg=BLUE</panel_attributes>
+    <additional_attributes>740.0;900.0;740.0;1070.0;10.0;1070.0;10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>597</x>
+      <y>291</y>
+      <w>198</w>
+      <h>219</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; make 3D content
+fg=MAGENTA</panel_attributes>
+    <additional_attributes>520.0;10.0;520.0;700.0;10.0;700.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>423</x>
+      <y>297</y>
+      <w>141</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+
+&lt; create assesment
+bg=BLACK
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;530.0;10.0;490.0;330.0;490.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>411</x>
+      <y>303</y>
+      <w>78</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+  request Trips &gt;
+
+bg=BLUE
+fg=BLUE</panel_attributes>
+    <additional_attributes>200.0;310.0;230.0;310.0;230.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>159</y>
+      <w>249</w>
+      <h>285</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+&lt; request Trips 
+
+fg=MAGENTA</panel_attributes>
+    <additional_attributes>10.0;880.0;10.0;930.0;710.0;930.0;710.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>291</y>
+      <w>180</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1..n
+
+request content &gt;
+fg=RED</panel_attributes>
+    <additional_attributes>560.0;10.0;560.0;60.0;10.0;60.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>291</y>
+      <w>267</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>
+bg=BLACK
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;110.0;870.0;110.0;870.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>321</y>
+      <w>66</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+
+
+
+allow interaction &gt;
+bg=BLACK
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;180.0;90.0;180.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>321</y>
+      <w>75</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+  allow login &gt;
+bg=BLACK
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;240.0;140.0;240.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>321</y>
+      <w>93</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+  
+  
+  
+  notify users &gt;
+bg=BLACK
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;310.0;200.0;310.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>483</x>
+      <y>261</y>
+      <w>45</w>
+      <h>237</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1..n
+
+teaches &gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bg=RED
+fg=RED</panel_attributes>
+    <additional_attributes>130.0;760.0;20.0;760.0;20.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>507</y>
+      <w>156</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+ browse courses/ 3D content &gt;
+</panel_attributes>
+    <additional_attributes>10.0;80.0;500.0;80.0;500.0;10.0;430.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>297</y>
+      <w>123</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= *..1
+&lt; conduct Lab
+bg=BLACK
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;170.0;370.0;170.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>291</y>
+      <w>9</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>555</x>
+      <y>297</y>
+      <w>9</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>681</x>
+      <y>249</y>
+      <w>39</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1
+assign user &gt;
+
+fg=BLUE</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>573</x>
+      <y>252</y>
+      <w>39</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+&lt; assign user
+
+fg=BLUE</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
