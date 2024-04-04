@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2024-04-03T10:55:11.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rjXC28WSeOvNsvkr7T3E" version="24.2.1" type="device">
+  <diagram name="Page-1" id="Mx7Iq8ttASBbPjpLBnmU">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qdF3oSXzWWQXcItWITIB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="820" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pWQf9mh5aRW6wcGT0CdE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="160" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pWQf9mh5aRW6wcGT0CdE-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Equation Identified&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="288" y="200" width="158" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pWQf9mh5aRW6wcGT0CdE-4" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pWQf9mh5aRW6wcGT0CdE-10" target="rM92I2Jq71N2cSaXRNwn-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="390" />
+              <mxPoint x="346" y="470" />
+              <mxPoint x="650" y="470" />
+              <mxPoint x="650" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWQf9mh5aRW6wcGT0CdE-10" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Confirm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="288" y="310" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pWQf9mh5aRW6wcGT0CdE-24" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Visualize Equation?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="288" y="270" width="243" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Ignore&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="310" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="310" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" parent="1" vertex="1">
+          <mxGeometry x="810" y="315" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-6" value="Plot summary" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="455" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-7" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="954" y="324" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-8" value="Expand" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="828" y="488" width="104" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="150" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-11" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-12" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;3D Visuals&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="170" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rM92I2Jq71N2cSaXRNwn-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.006;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rM92I2Jq71N2cSaXRNwn-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="470" as="sourcePoint" />
+            <mxPoint x="740" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
